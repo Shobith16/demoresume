@@ -229,11 +229,15 @@
      .pic,img{
        margin-left: 340px;
         margin-top: -290px;
-        padding-top: 100px;
+        padding-top: 120px;
         padding-right: 100px;
         
 
     } 
+    .pic img{
+        height: 26vh;
+    }
+    
     .info{
         display: flex;
        justify-content: center;
