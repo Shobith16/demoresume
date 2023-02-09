@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    display:flex;
+} 
+.sidebar nav{
+    padding:20% ; 
+    justify-content: center;
+   width: 0px;
+}
+.ul p{
+    padding:90px 0px  0px 0px;
+    font-weight: bold;
+ }
+ .sidebar nav p a{
+    text-decoration: none;
+    color:rgb(5, 4, 4);
+ }
+.sidebar{
+    position: fixed;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    /*background: rgb(191,232,223);
+    background: radial-gradient(circle, rgba(191,232,223,1) 1%, rgba(137,168,216,1) 100%);*/
+    width: 14%;
+    height: 100%;
+    /* position: absolute;
+    bottom: 0%; */
+    transition: transform 0.3s ease-in;
+}
+
+.main{
+    color: white;
+    width: 86%;
+    height: 40%;
+   
+  
+    
+    float: right;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+   
+    
+}
+.lang{
+    color: rgb(28, 25, 25);
+    
+    width: 86%;
+    height: 80%;
+    float: right;
+    padding: 10px;
+    position: relative;
+    top: 30%;
+    right: 8%;
+     background-color: rgb(249, 241, 230);
+    border-radius :20px;
+    border-style: solid;
+    border-color: rgb(120, 107, 107); 
+}
+.lang p{
+    padding: 10px;
+    
+    
+    
+}
+.wynk{
+    color: rgb(24, 21, 21);
+    width: 86%;
+    height: 80%;
+    padding: 30px;
+  
+    
+    float: right;
+    position: relative;
+    top: 40%;
+    right: 8%;
+     background-color: rgb(249, 241, 230);
+    border-radius :20px;
+    border-style: solid;
+    border-color: rgb(120, 107, 107); 
+}
+.wynk p{
+    padding: 10px;
+    
+    
+}
+.insta{
+    color: rgb(15, 14, 14);
+    
+    width: 86%;
+    height: 80%;
+    float: right;
+    padding: 10px;
+    position: relative;
+    top: 50%;
+    right: 8%;
+    background-color: rgb(249, 241, 230);
+    border-radius :20px;
+    border-style: solid;
+    border-color: rgb(120, 107, 107); 
+}
+.insta p{
+    padding: 10px;
+    
+    
+    
+}
+
+.infocontainer{
+    color: rgb(247, 249, 250);
+    background: rgb(4,0,0);
+    background: radial-gradient(circle, rgba(4,0,0,0.8868852459016393) 0%, rgba(0,0,0,1) 13%);
+    height: 58vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    padding: 60px;
+    margin: 80px;
+    justify-content: space-around;
+}
+.info{
+    display: flex;
+   justify-content: center;
+   
+
+    flex-direction: column;
+
+}
+.hello{
+    font-size: 85px;
+    font-weight: bold;
+    margin: 0px 0px 0px 40px;
+    padding: 2px;
+}
+.name{
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 0px 0px 0px 40px;
+    padding: 2px;
+}
+
+.about{
+    font-size: 30px;
+    margin: 0px 0px 0px 40px;
+    padding: 2px;
+}
+.buttons button{
+    padding: 4px 16px;
+    border-radius: 22px;
+   /* background-color: rgb(81, 134, 218);
+    background-color: linear-gradient(90deg, rgba(9,94,227,1) 0%, rgba(95,171,223,0.9699230033810399) 100%);*/
+    font-size: 14px; 
+    margin: 10px 0px 0px 33px;
+    cursor: pointer;
+    background-color: #7f52ff;
+    
+   
+    
+    
+}
+
+.buttons a{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons button a:hover{
+   
+    color: #7442fd;
+    
+} 
+.buttons button:hover{
+    
+    background-color: rgb(232, 231, 230);
+}
+
+.pic img{
+    height: 58vh;
+    float:right;
+    
+}
+.par p{
+    width: 120vw;
+    margin: 44px;
+    padding: 55px;
+    display:flex;
+    justify-content: space-around;
+
+}
+.form {
+    padding: 102px;
+    margin: 40px;
+   
+    
+}
+.mb input{
+    width: 300px;
+    margin: 20px 0;
+    
+}
+
+.mb p{
+    font-size:10px;
+    color: crimson;
+}
+.mb-3 input{
+    width: 16px;
+    height: 15px;
+    margin: 0px 0 10px  ;
+    
+}
+.form button{
+    padding: 6px;
+    
+    border-radius: 18px;
+    font-weight: bold;
+    background-color: #7f52ff;
+    cursor: pointer;
+    color: blanchedalmond;
+   /* background-color: aliceblue;*/
+} 
+.form button:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+.form h2{
+    margin: 25px 0;
+    color: white;
+}
+.form label {
+    color: white;
+}
+.hambargor{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left:-220px;
+    
+
+}
+.hambargor img{
+    margin: 10px 10px 0px -235px;
+    padding: 0px 250px;
+    
+    
+}
+@media (max-width: 1600px) {
+    /*body {
+      background-color: lightblue;
+    }*/
+  }
+  .cancel{
+    margin-left:  10px 10px 0px 155px;
+    
+  }
+  .sidebargo{
+    transform: translate(-443px,0px);
+    position:absolute;
+    
+    
+  }
+  .abt{
+    background-color: rgb(8, 3, 3);
+    border-radius: 8%;
+    margin: 10%;
+    padding: 3%;
+  }
+  .abt h2{
+    margin: 40px;
+    padding: 20px;
+    text-decoration: underline;
+  }
+  .abt ul{
+    margin: 40px;
+  }
+  
+.foot{
+    /* float: right ;
+    padding: 4% 0% 0% 4%;
+    width: 86%;
+    height: 200px;
+    background-color: gainsboro; */
+    color: white;
+    
+    width: 97%;
+    height: 60%;
+    float: right;
+    /* margin: -3.69%; */
+     padding: 20px; 
+    position: relative;
+    top: 70%;
+    right: 0%;
+    
+     background-color: rgb(14, 13, 11);
+    /* border-radius :20px; */
+    /* border-style: solid;
+    border-color: rgb(120, 107, 107);  */
+}
+.f1{
+   float: right;
+   position: relative;
+   right:45%;
+   top:70%;
+    /* padding: 6%;  */
+}
+.f2{
+    float: right;
+    position: relative;
+    right:35%;
+    top:80%;
+     /* padding: 6%; */
+ }
