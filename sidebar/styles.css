@@ -301,7 +301,7 @@
     color: white;
     
     width: 97%;
-    height: 60%;
+    height: 40%;
     float: right;
     /* margin: -3.69%; */
      padding: 20px; 
@@ -317,7 +317,7 @@
 .f1{
    float: right;
    position: relative;
-   right:45%;
+   right:46%;
    top:70%;
     /* padding: 6%;  */
 }
@@ -325,6 +325,12 @@
     float: right;
     position: relative;
     right:35%;
-    top:80%;
+    top:90%;
      /* padding: 6%; */
+ }
+ #social{
+    position: relative;
+    top: 38%;
+    left: 40%;
+    padding: 10px;
  }
