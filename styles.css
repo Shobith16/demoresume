@@ -393,10 +393,17 @@
         margin: 1%;
         
     }
-    .hambargor{
+     .hambargor{
+        
         position: absolute;
-        top: -100px;
-        left: -220px; 
+        top: 0px;
+        left: -40%;
+        width: 12%;
+        padding-bottom: 4px;
+        
+        border-radius: 8%;
+        border-style: solid; 
+        border-color: #94989c;
     }
     .main22{
         padding: 26%;
