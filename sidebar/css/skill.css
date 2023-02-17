@@ -115,6 +115,8 @@
     border-radius: 8%;
     border-style: solid; 
     border-color: #939ea8;
+    z-index:2;
+    
 
 }
 .hambargor img{
