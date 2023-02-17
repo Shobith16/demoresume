@@ -89,6 +89,9 @@
         background-color: rgb(14, 13, 11);
         z-index:1;
     }
+.foot a{
+  padding:6px;
+}
  @media only screen and (max-width: 600px) {
    
     .ul{
