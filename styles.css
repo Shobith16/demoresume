@@ -237,7 +237,7 @@
     height: 25vh;
     width: 192vh;
     position: relative;
-    right: 20px;
+    right: 30px;
     top: 180px;
      z-index: -1;
      
@@ -249,6 +249,15 @@
     position: relative;
     top: 70%;
     
+}
+.foot {
+    position: relative;
+    top: 300px;
+    right:50px;
+    /* left: 9px; */
+}
+.foot a{
+     padding:5px;
 }
 .form button{
     padding: 6px;
