@@ -30,6 +30,7 @@
     background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 14%;
     height: 100%;
+    z-index:2;
     transition: transform 0.3s ease-in;
 }
 .sidebargo{
@@ -44,10 +45,11 @@
     border-radius: 8%;
     margin: 10%;
     padding: 3%;
-    width: 40%;
+    width: 45%;
     position: relative;
     left: 18%;
     top: -80%;
+    z-index:1;
   }
   .abt h2{
     /* margin: 40px; */
@@ -97,6 +99,7 @@
     border-radius: 8%;
     border-style: solid; 
     border-color: #939ea8;
+    z-index:2;
 
 }
 .hambargor img{
