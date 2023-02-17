@@ -40,6 +40,7 @@
     position: fixed;
     top: 0%;
     transition: transform 0.3s ease-in;
+    z-index:2;
 }
 
 
@@ -78,6 +79,7 @@
     transition: transform 0.3s ease-in;
     position: relative;
     left: 120px;
+    z-index:1;
 }
 .main2{
     background-color: #f8f9f3;
@@ -281,6 +283,7 @@
     border-radius: 8%;
     border-style: solid; 
     border-color: #939ea8;
+    z-index:2;
 
 }
 .hambargor img{
