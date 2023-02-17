@@ -162,9 +162,10 @@
 }
 /* ---------------------------------------------help---------------------------------------------------------------------- */
 .main22{
-    background-color: #d4dfe1;
-    padding: 20px; 
-     height: 100%; 
+     background-color: #d4dfe1;
+   
+     height: 100%;
+    width:100%;
      
    
 
@@ -288,7 +289,7 @@
     position: absolute;
     cursor: pointer;
     top: 22px;
-    left:-220px;
+    right:220px;
     border-radius: 8%;
     border-style: solid; 
     border-color: #939ea8;
@@ -431,11 +432,11 @@
         margin: 1%;
         
     }
-    .hambargor{
+ .hambargor{
         
         position: absolute;
-        top: -10px;
-        left: -43%;
+        top: 10px;
+        right:370px;
         width: 5%;
         padding-bottom: 4px;
         padding-right: 10%;
@@ -444,13 +445,8 @@
         border-style: solid; 
         border-color: #8d9297;
     }
-    .main22{
-        
-        padding: 8%;
-       
-        /* position: absolute;
-        top: -80px; */
-    }
+
+   
     .par{
       width: 40%;
        padding: 22%;
@@ -460,21 +456,31 @@
     }
     .bot{
         /* padding: 0 70px 0 50px; */
-        padding-right: 5%;
-        padding-top: 50px;
-        background-color: rgb(35, 34, 32);
-        height: 12vh;
-        width: 70vh;
-        margin-top: -30px;
-        margin-left: -30px;
-        margin-bottom: -53px;
+   
+    position: relative;
+    top:85px;
+    right: 30px;
+    z-index:1;
+        
+
     
     }
     .bot p{
         color: white;
+     
+    }
+    footer{
+        background:black;
+        width:100vw;
+        height:20vh;
         position: relative;
-        top: 10%;
-        
+        right:20px;;
+          z-index:1;
+    }
+     footer a{
+        position:relative;
+        top:70px;
+        padding:10px;
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up)
