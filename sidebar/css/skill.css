@@ -131,12 +131,29 @@
 }
   .thh{
     padding: 30px;
+    position:relative;
+    top:90px;
+    left:90px;
+    margin-bottom:20px;
+    background:white;
+/*     border-box:2px bold; */
    
+     border: 1px solid; 
+     padding: 10px;
+     box-shadow: 5px 10px #888888;
    
   }
   .ptgry1{
    
     padding: 50px;
+    position:relative;
+    top:100px;
+    left:90px;
+    background:white;
+    
+     border: 1px solid; 
+     padding: 10px;
+     box-shadow: 5px 10px #888888;
    
    
   }
