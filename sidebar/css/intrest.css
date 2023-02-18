@@ -85,6 +85,10 @@
      top: 0px;
     left: 514px; 
 }
+ .music h2{
+          margin-top:-14px;
+          margin-left:-15px;
+ }
 .music p{
     padding: 10px;
     
@@ -206,6 +210,10 @@
         border-style: solid;
         border-color: rgb(120, 107, 107); 
     }
+    .music h2{
+          margin-top:-14px;
+          margin-left:-15px;
+      }
     .music p{
         padding: 10px;
         
