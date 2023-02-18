@@ -269,10 +269,10 @@
 .hambargor1{
         
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 10px;
+    left: 10px;
     
-    width: 3%;
+/*     width: 3%; */
     
    
     border-radius: 8%;
@@ -286,7 +286,8 @@
     margin: auto;
     padding-top: 10px;
     padding-bottom: 6px;
-    padding-left: 15px;
+     padding-left: 14px;
+     padding-right:14px; 
     
     
 }
@@ -301,19 +302,21 @@
 /* ----------------------------------------------------------------------------- */
 .hambargor{
     position: absolute;
-    cursor: pointer;
-    top: 22px;
-    left:20px;
+    top: 10px;
+    left: 10px;
+    /* width: 3%; */
     border-radius: 8%;
-    border-style: solid; 
-    border-color: #939ea8;
-    z-index:2;
+    border-style: solid;
+    border-color: #8d9297;
+    z-index: 2;
 }
 .hambargor img{
-    margin: 13px -235px 5px -235px;
-    padding: 0px 250px;
-    
-    
+     position: relative;
+     margin: auto;
+     padding-top: 10px;
+     padding-bottom: 6px;
+     padding-left: 14px;
+     padding-right:14px; 
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -453,19 +456,17 @@
         left: -60px;
         width: 50px;
     }    
-    .hambargor{
-        
-        position: absolute;
-        top: -10px;
-        left: -43%;
-        width: 5%;
-        padding-bottom: 4px;
-        padding-right: 10%;
-        
-        border-radius: 8%;
-        border-style: solid; 
-        border-color: #8d9297;
+      .hambargor{ 
+          position: relative;
+        left: -80px;
+        width: 40px;
+     
     }
+    .hambargor ,img{
+        padding-right:10px;
+        
+    }
+
     .main22{
         width: 100vw;
        
