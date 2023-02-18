@@ -176,7 +176,8 @@
     }
     
     
-     .browse{
+       
+    .browse{
         color: rgb(28, 25, 25);
         
         width: 70%;
@@ -184,7 +185,8 @@
        
         padding: 17px;
          position: relative; 
-         top:200px;
+         top:100px;
+        left:50px;
         background-color: rgb(249, 241, 230);
         border-radius :20px;
         border-style: solid;
@@ -202,19 +204,20 @@
         height: 10%;
         padding: 36px;
         position: relative; 
-        top:300px;
-        left:100px;
+        top:120px;
+        left:50px;
       
         background-color: rgb(249, 241, 230);
         border-radius:20px;
         border-style: solid;
         border-color: rgb(120, 107, 107); 
     }
-    .music h2{
+      .music h2{
           margin-top:-14px;
           margin-left:-15px;
       }
     .music p{
+          
         padding: 10px;
         
         
@@ -225,7 +228,8 @@
         height: 15%;
         padding: 17px;
          position: relative; 
-        top:400px;
+        top:140px;
+        left:50px;
         /* margin-top: 300px; */
         /* margin-bottom: 30px; */
         /* margin-left: 80px; */
@@ -244,17 +248,19 @@ color: white;
       
 position: relative;
       
-top: 600px;
+top: 160px;
       
 left: 0px;
       
       
-padding:50px;
+padding:30px;
       
-width:100%;
+width:85%;
       
 background-color: rgb(14, 13, 11);
     }
+    
+ 
     
      #social{
        
