@@ -450,15 +450,24 @@
         margin: 1%;
         
     }
+     .par{
+      width: 40%;
+       padding: 12%;
+       position: relative;
+       left: 16%;
+        
+    }
     
     .hambargor1{
-        position: relative;
+          position: relative;
+        top:30px;
         left: -60px;
         width: 50px;
     }    
       .hambargor{ 
           position: relative;
-        left: -80px;
+        top:30px;
+        left: -60px;
         width: 40px;
      
     }
@@ -472,13 +481,7 @@
        
     
     }
-    .par{
-      width: 40%;
-       padding: 22%;
-       position: relative;
-       left: 16%;
-        
-    }
+   
     
     .bot p{
         color: white;
