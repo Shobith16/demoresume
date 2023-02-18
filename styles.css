@@ -167,7 +167,7 @@
      margin: 6%; 
     padding: 8%;
     position: relative;
-    top: -140px;
+    top: 0px;
     left: 8%;
     color: #d4dfe1;
     background: url(images/bg1.jpg);
@@ -177,7 +177,7 @@
     margin: 8%;
     padding: 2%;
     position: relative;
-    top: -10px;
+    top: 10px;
     right: 3%;
 }
 .par .para li{
