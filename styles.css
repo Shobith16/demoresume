@@ -64,18 +64,20 @@
     /* margin: 144px auto; */
     display: flex;
     padding: 27px;
-    margin: 83px;
+    /* margin: 83px; */
     justify-content: space-around;
     transition: transform 0.3s ease-in;
     position: relative;
-    left: 120px;
+    left: 12vw;
+    top:10vh;
+    
 }
 .main2{
-    background-color: #f8f9f3;
+    background-color: #000000;
     margin-top: 0px;
-   padding: 26px;
-    height: 100%;
-   
+
+    width:100vw;
+    height:100vh ;
 }
 .info{
     display: flex;
@@ -104,12 +106,16 @@
     padding: 2px;
 }
 .buttons button{
-    padding: 4px 16px;
+    position:relative;
+    top:1vw;
+/*      padding: 1px ;  */
+    width:8vw;
+    height:5vh;
     border-radius: 22px;
    /* background-color: rgb(81, 134, 218);
     background-color: linear-gradient(90deg, rgba(9,94,227,1) 0%, rgba(95,171,223,0.9699230033810399) 100%);*/
     font-size: 14px; 
-    margin: 10px 0px 0px 33px;
+/*     margin: 10px 0px 0px 33px; */
     cursor: pointer;
    
     
@@ -167,7 +173,7 @@
      margin: 6%; 
     padding: 8%;
     position: relative;
-    top: 0px;
+    top: -140px;
     left: 8%;
     color: #d4dfe1;
     background: url(images/bg1.jpg);
@@ -177,7 +183,7 @@
     margin: 8%;
     padding: 2%;
     position: relative;
-    top: 10px;
+    top: -10px;
     right: 3%;
 }
 .par .para li{
@@ -269,10 +275,10 @@
 .hambargor1{
         
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
     
-/*     width: 3%; */
+    width: 3%;
     
    
     border-radius: 8%;
@@ -286,8 +292,7 @@
     margin: auto;
     padding-top: 10px;
     padding-bottom: 6px;
-     padding-left: 14px;
-     padding-right:14px; 
+    padding-left: 15px;
     
     
 }
@@ -302,21 +307,19 @@
 /* ----------------------------------------------------------------------------- */
 .hambargor{
     position: absolute;
-    top: 10px;
-    left: 10px;
-    /* width: 3%; */
+    cursor: pointer;
+    top: 22px;
+    left:20px;
     border-radius: 8%;
-    border-style: solid;
-    border-color: #8d9297;
-    z-index: 2;
+    border-style: solid; 
+    border-color: #939ea8;
+    z-index:2;
 }
 .hambargor img{
-     position: relative;
-     margin: auto;
-     padding-top: 10px;
-     padding-bottom: 6px;
-     padding-left: 14px;
-     padding-right:14px; 
+    margin: 13px -235px 5px -235px;
+    padding: 0px 250px;
+    
+    
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -332,7 +335,7 @@
     }
     .main{
         width: 80%;
-        margin-right: 40px;
+        /* margin-right: 40px; */
         position: relative;
         left: 88px;
         
@@ -341,37 +344,44 @@
    
     
     .sidebar{
-        width: 34%;
+        width: 30%;
         height: 100%;
         
     }
     .ul p a{
         line-height: 45px;
     }
-    .infocontainer{
-        color: rgb(247, 249, 250);
-         background: rgb(4,0,0); 
-       
-        background: radial-gradient(circle, rgba(4,0,0,0.8868852459016393) 0%, rgba(0,0,0,1) 13%);
-        height: 74vh;
-        width: 40vw;
-        /* margin: 144px auto; */
-        /* display: flex; */
-        padding: 40px;
-        margin: 50px;
-        /* justify-content: space-around; */
-        transition: transform 0.3s ease-in;
-        position: relative;
-        left: 70px;
-
+    
+    .main2{
+        padding:auto;
+        width: 105vw;
+        height: 70vh;
     }
+    
+       .infocontainer{
+            color: rgb(247, 249, 250);
+            background: rgb(4,0,0);
+            background: radial-gradient(circle, rgba(4,0,0,0.8868852459016393) 0%, rgba(0,0,0,1) 13%);
+            height: 65vh;
+            width: 62vw;
+            padding: 20px;
+           
+           
+            border-radius: 8px;
+           
+           
+            position:relative;
+            left:18vw;
+            top:20vh;
+            transition: transform 0.3s ease-in;
+        }
      .pic ,img{
        
-       position: relative;
-       top: -7%;
-       left:14%;
-
-
+        position: relative;
+       
+        top: -7%;
+       
+        left:10%;
     } 
     .pic img{
         height: 20vh;
@@ -382,43 +392,53 @@
     
      .hello{
 
-        font-size: 45px;
+        font-size: 35px;
         font-weight: bold;
+          width:30vw;
         position:relative; 
-        top:19%;
-        right:120%;
+        top:25%;
+        right:100%;
     
     }
     .name{
-        font-size: 25px;
+        font-size: 20px;
+        width:30vw;
         font-weight: bolder;
         position:relative; 
-        top:19%;
-        right:120%;
+        top:25%;
+        right:100%;
   
     }
     
     .about{
         font-size: 15px;
+         width:30vw;
         position:relative; 
-        top:19%;
-        right:120%;
-        font-size: 18px;
+        top:25%;
+        right:100%;
+        
         font-weight: 400px;
  
     } 
     
     .buttons button{
-        padding: 6px 12px 8px 16px;
+/*         padding: 6px 12px 8px 16px; */
+        
         border-radius: 22px;
-        font-size: 14px; 
+        font-size: 11px; 
         position:relative; 
-        top:120%;
-        right:120%;
-    
-        cursor: pointer;
+        top:18vh;
+        right:80%;
+        width:20vw;
+        height:5vh;
+        margin-bottom:12px;
+/*         cursor: pointer; */
         
          
+    }
+    .bottons{
+
+        width: 100%;
     }
     .par  h2{
         width: 100%;
@@ -450,57 +470,56 @@
         margin: 1%;
         
     }
-     .par{
-      width: 40%;
-       padding: 12%;
-       position: relative;
-       left: 16%;
-        
-    }
     
     .hambargor1{
-          position: relative;
-        top:30px;
+        position: relative;
         left: -60px;
         width: 50px;
+       
     }    
-      .hambargor{ 
-          position: relative;
-        top:30px;
-        left: -60px;
-        width: 40px;
-     
-    }
-    .hambargor ,img{
-        padding-right:10px;
+    .hambargor{
         
+        position: absolute;
+        top: 30px;
+        
+/*         left: 43%; */
+        left:-14vw;
+        width: 5%;
+        padding-bottom: 4px;
+        padding-right: 10%;
+        
+        border-radius: 8%;
+        border-style: solid; 
+        border-color: #8d9297;
     }
-
     .main22{
         width: 100vw;
        
     
     }
-   
+    .par{
+      width: 40%;
+       padding: 22%;
+       position: relative;
+       left: 16%;
+        
+    }
     
     .bot p{
         color: white;
         position: relative;
-        top: 70px;
-        left:60px;
+        top: 90px;
+        left:30px;
         
     }
     footer a{
-        postion:relative;
-        
-        left:3px ;
+        top: 70px;
+        right: 5%;
         padding: 5px;
     }
-    .foot{
-         postion:relative;
-        top:80px;
-        left:3px;
-        height: 15vh;
+    footer{
+        
+        height: 12vh;
         width: 100vw;
       
     }
