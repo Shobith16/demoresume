@@ -107,13 +107,17 @@
         background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
     
-        width: 34%;
+        width: 48%;
         height: 100%;
        
         transition: transform 0.3s ease-in;
     }
     
-    
+   .hambargor{
+      position: absolute;
+      top: 30px;
+     
+   }
    
     .foot{
       
