@@ -130,8 +130,8 @@
 
     }
     
-    .sidebar{
-        width: 30%;
+      .sidebar{
+        width: 48%;
         
     }
    .sidebar ,nav{
@@ -152,7 +152,7 @@
         margin: 10%;
         padding: 1%;
         position: relative;
-         top: -20px; 
+     ; 
         right:13%;
     }
     .par .para{
@@ -172,7 +172,7 @@
     .par p{
         position: relative;
         top: 40px;
-        left: -16%;
+       
         margin: 1%;
         
     }
@@ -190,8 +190,12 @@
         border-color: #94989c;
     }
     .main22{
+    
+      width:100vw;
+      height:110vh;
+       padding: 8%;
+      
         
-        padding: 8%;
     
     }
     .par{
@@ -202,6 +206,8 @@
         
     }
     .abt{
+       position: relative;
+       left: -8%;
         padding: 8%;
     }
     .me{
@@ -209,5 +215,6 @@
        
         top: 60%;
       }
+
 
 }
