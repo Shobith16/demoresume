@@ -12,13 +12,12 @@
 .sidebar nav{
     padding: 30%;
     justify-content: center;
-   width: 110px;
+   width: 80px;
   
 }
 .ul p{
-    padding: 35px 0;
+    padding: 23px;
     font-weight: bold;
-    
  }
  .ul p a{
     text-decoration: none;
@@ -333,10 +332,11 @@
     z-index:2;
 }
 .hambargor img{
-    margin: 13px -235px 5px -235px;
-    padding: 0px 250px;
-    
-    
+/*     margin: 13px -235px 5px -235px; */
+    padding:  10px;
+    position:relative;
+    left:35%;
+    top:.5vh;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -368,6 +368,15 @@
     .ul p a{
         line-height: 45px;
     }
+    .ul{
+        position:relative;
+        right:30%;
+        top:5vh;
+        width:180%;
+        height:90vh;
+        
+/*         padding:0%; */
+    }
     
     .main2{
         padding:auto;
@@ -392,16 +401,31 @@
             top:20vh;
             transition: transform 0.3s ease-in;
         }
+        .info{
+        position:relative;
+        right:50%;
+        top:46%;
+        height:55%;
+    }
      .pic ,img{
        
         position: relative;
        
-        top: -7%;
+        bottom: 12%;
        
-        left:10%;
+/*         left:1%; */
     } 
+    .pic{
+        padding:3%;
+/*         width:95vw; */
+        height:25vh;
+        position:relative;
+        left:30%;
+        top:3%;
+    }
     .pic img{
-        height: 20vh;
+        height: 18vh;
+/*         width:20vw; */
     }
     .sidebar.sidebargo{
         background-color: #8bbdee;
@@ -413,8 +437,8 @@
         font-weight: bold;
           width:30vw;
         position:relative; 
-        top:25%;
-        right:100%;
+/*         top:25%; */
+        right:11%;
     
     }
     .name{
@@ -422,8 +446,8 @@
         width:30vw;
         font-weight: bolder;
         position:relative; 
-        top:25%;
-        right:100%;
+/*         top:25%; */
+        right:11%;
   
     }
     
@@ -431,32 +455,30 @@
         font-size: 15px;
          width:30vw;
         position:relative; 
-        top:25%;
-        right:100%;
+/*         top:25%; */
+        right:11%;
         
         font-weight: 400px;
  
     } 
     
-    .buttons button{
-/*         padding: 6px 12px 8px 16px; */
-        
-        border-radius: 22px;
-        font-size: 11px; 
-        position:relative; 
-        top:18vh;
-        right:80%;
-        width:20vw;
-        height:5vh;
-        margin-bottom:12px;
-/*         cursor: pointer; */
-        
-         
+    .buttons button
+    {/*  padding: 6px 12px 8px 16px; 
+        */border-radius: 22px;
+        font-size: 11px;
+        position:relative;
+        top:2vh;
+        /* right:80%; 
+        */width:16vw;
+        height:4vh;
+        margin-bottom:12px;/*       
+        cursor: pointer; */
     }
-    .bottons{
+    button{
 
-        width: 100%;
+        width: 10vw;
     }
+    
     .par  h2{
         width: 100%;
         margin: 10%;
