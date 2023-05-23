@@ -326,6 +326,8 @@
     cursor: pointer;
     top: 22px;
     left:20px;
+    left:2%;
+    width:3%;
     border-radius: 8%;
     border-style: solid; 
     border-color: #939ea8;
@@ -335,7 +337,7 @@
 /*     margin: 13px -235px 5px -235px; */
     padding:  10px;
     position:relative;
-    left:35%;
+    
     top:.5vh;
 }
 /* Extra small devices (phones, 600px and down) */
@@ -526,13 +528,17 @@
         
 /*         left: 43%; */
         left:-14vw;
-        width: 5%;
+        width: 4%;
         padding-bottom: 4px;
         padding-right: 10%;
         
         border-radius: 8%;
         border-style: solid; 
         border-color: #8d9297;
+    }
+    .hambargor img{
+        position:relative;
+        left:35%;
     }
     .main22{
         width: 100vw;
